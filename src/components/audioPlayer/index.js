@@ -71,6 +71,7 @@ export default function AudioPLayer({
     } else {
       isReady.current = true;
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentIndex]);
 
   useEffect(() => {

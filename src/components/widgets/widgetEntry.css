@@ -18,9 +18,10 @@
 
 .entry-title {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 12px;
   color: #c9d0e3;
   margin: 0px 0px 5px;
+  line-clamp: 1;
 }
 
 .entry-subtitle {
