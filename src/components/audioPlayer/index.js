@@ -55,7 +55,8 @@ export default function AudioPLayer({
         audioRef.current.pause();
       }
     }
-  }, [isPlaying]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isPlaying, audioSrc]);
 
   useEffect(() => {
     audioRef.current.pause();
