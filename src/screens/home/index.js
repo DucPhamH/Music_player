@@ -5,6 +5,7 @@ import Feed from "../feed";
 import Player from "../player";
 import Favorites from "../favorites";
 import Trending from "../trending";
+import "./home.css";
 export default function Home() {
   return (
     <Router>
