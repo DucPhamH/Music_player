@@ -31,6 +31,7 @@ export default function Sidebar() {
         onClick={() => {
           localStorage.removeItem("token");
           navigate("/login");
+          window.location.reload();
         }}
       >
         <div className="btn-body">
